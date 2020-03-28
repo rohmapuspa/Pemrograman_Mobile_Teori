@@ -117,10 +117,8 @@
 
         <Button
             android:id="@+id/buttonpesan"
-            android:layout_width="374dp"
-            android:layout_height="44dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
+            android:layout_width="181dp"
+            android:layout_height="55dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
@@ -129,10 +127,23 @@
             android:text="PESAN"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/buttongallery"
+            android:layout_width="162dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#E597F1"
+            android:text="GALLERY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonpesan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

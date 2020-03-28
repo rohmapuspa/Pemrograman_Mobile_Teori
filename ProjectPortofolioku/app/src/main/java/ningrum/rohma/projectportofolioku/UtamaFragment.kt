@@ -31,6 +31,9 @@ class UtamaFragment : Fragment() {
         buttonpesan.setOnClickListener {
             nav.navigate(R.id.action_utamaFragment_to_inputFragment)
         }
+        buttongallery.setOnClickListener {
+            nav.navigate(R.id.action_utamaFragment_to_galleryFragment)
+        }
     }
 }
 

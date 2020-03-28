@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_utamaFragment_to_inputFragment"
             app:destination="@id/inputFragment" />
+        <action
+            android:id="@+id/action_utamaFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
     </fragment>
     <fragment
         android:id="@+id/inputFragment"
@@ -31,4 +34,13 @@
         android:name="ningrum.rohma.projectportofolioku.HasilFragment"
         android:label="fragment_hasil"
         tools:layout="@layout/fragment_hasil" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="ningrum.rohma.projectportofolioku.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_galleryFragment_to_utamaFragment"
+            app:destination="@id/utamaFragment" />
+    </fragment>
 </navigation>
